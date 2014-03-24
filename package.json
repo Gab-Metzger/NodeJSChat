@@ -1,10 +1,14 @@
 {
     "name": "XIII-tchat",
     "version": "0.1.0",
+    "main": "web.js",
     "dependencies": {
         "express": "~3.3.4",
         "socket.io": "~0.9.16",
         "ent": "~0.1.0"
+    },
+    "engines": {
+    "node": "0.10.x"
     },
     "author": "Zmaster <gab.metzger@gmail.com>",
     "description": "Un tchat pour l'alliance XIII Ogame univers Zagadra"
